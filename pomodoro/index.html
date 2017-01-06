@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Pomodoro Clock</title>
+        <meta name="author" content="" />
+        <!-- Date: 2016-04-19 -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel = "stylesheet" type="text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h2>Pomodoro Clock</h2>
+            <div class="base">
+                <div id="sessionConf" class="conf">
+                    <div class="input-group ">
+                        <span class="input-group-btn">
+                            <button id="sessionm" class="btn btn-default">-</button>
+                        </span>                    
+                        <input type=text value="25" id="sessionLength"
+                        class="form-control">
+                        <span class="input-group-btn">
+                            <button id="sessionp" class="btn btn-default">+</button>
+                        </span>
+                    </div>                
+                </div>            
+                <div class="conf">
+                    <button id="start" class="btn btn-default"
+                        title="Start/Stop the clock">
+                        Start
+                    </button>
+                </div>
+                <div id="breakConf" class="conf">
+                    <div class="input-group ">
+                        <span class="input-group-btn">
+                            <button id="breakm" class="btn btn-default">-</button>
+                        </span>                    
+                        <input type=text value="5" id="breakLength"
+                        class="form-control" >
+                        <span class="input-group-btn">
+                            <button id="breakp" class="btn btn-default">+</button>
+                        </span>
+                    </div>                
+                </div>          
+                <div id="conflabel">
+                    <div class="conf">
+                        <label for="sessionLength">Session Length</label>
+                    </div>            
+                    <div class="conf" id="dummy">  #dummy </div>
+                    <div class="conf">
+                        <label for="breakLength">Break Length</label>
+                    </div>          
+                </div>
+                <div id="clockBase">
+                    <div id="clock">
+                        <div id="label" class='text-center'>
+                            #label
+                        </div>
+                        <div id="countDown" class="text-center">
+                            <span id="minutes">#minutes</span>:<span id="seconds">#seconds</span>
+                        </div>
+                    </div>
+                    <button id="reset" class="btn btn-default">
+                        Reset
+                    </button>
+       <div style="font-style: italic; font-size: small; margin-top: 30px" class="text-center">
+           The marvellous clock alarm sound is taken from <a
+               href="www.orangefreesounds.com">www.orangefreesounds.com</a>.
+       </div>
+    </body>
+</html>
+

@@ -1,0 +1,135 @@
+body {
+    background-color: #2D3238;
+    color: #C7CBCF;
+    font-family: Helvetica;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #464D70;
+    text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 840px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.base {
+  position: relative;
+  top: 30px;
+  width: 640px;
+  height: 640px;
+  margin: 0 auto;
+  background-color: #2D3238;
+}
+
+.conf {
+  width: 180px;
+  margin-left: 25px;
+  float: left;
+}
+#conflabel {
+    width: 640px;
+    height: 10%;
+    margin: 0 auto;
+}
+#dummy {
+    color: #2D3238;
+}
+
+
+.form-control {
+    background: none;
+    border: none;
+    color: #eee;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15pt;
+    
+}
+#header{
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #C7CBCF;
+    font-size: 30pt;
+
+}
+#configuration{
+    margin-top: 30px;
+}
+#clockBase {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color: #2D3238;
+}
+
+
+#clock{
+    border: solid 10px;
+    box-shadow: 0 0 5px 5px #000;
+    border-color: #57AD68;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+#label {
+    margin-top: 10%;
+    font-size: 100%;
+}
+#countDown {
+    margin: 15% auto;
+    font-size: 2.5em;
+    width: 75%;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2px 2px #C7CBCF;
+}
+#reset {
+    margin-top: 20px;
+}
+/*
+    #2B2B2B gray
+    #DE1B1B red
+    #F6F6F6 white-ish
+    #E9E581 yellow-ish
+*/
+    /*
+     *#2D3238 gray
+     *#57AD68 green
+     *#464D70 petrol
+     *#C7CBCF pale magenta
+     *#EEEEEE whiteish
+     * */
+.btn {
+    background-color: #57AD68; 
+    box-shadow: 0 0 2px 2px rgba(0,0,0, 0.5);
+}
+.btn:hover {
+    background: #C7CBCF ! important;
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0, 0.5);
+}
+
+
+label {
+    cursor: pointer;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #57AD68;
+}
+
+
