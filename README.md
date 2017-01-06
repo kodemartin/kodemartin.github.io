@@ -1,4 +1,4 @@
 # kodemartin.github.io
 Various pages created while FreeCodeCamping.
 
-* Pomodoro-clock ```/pomodoro```
+* [Pomodoro-clock](https://kodemartin.github.io/pomodoro)
