@@ -1,3 +1,0 @@
-[submodule "tictactoe"]
-	path = tictactoe
-	url = git@github.com:kodemartin/Tic-Tac-Toe-AI.git
