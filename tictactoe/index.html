@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Tic Tac Toe</title>
+        <meta name="author" content="" />
+        <!-- Date: 2016-04-19 -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel = "stylesheet" type="text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <!-- 
+        Tic Tac Toe minimax algorithm and libraries from https://github.com/Mostafa-Samir/ 
+        -->
+        <!-- <script type="text/javascript" defer src="https://raw.githubusercontent.com/Mostafa-Samir/Tic-Tac-Toe-AI/master/scripts/ai.js"></script> -->
+        <!-- <script defer src="https://raw.githubusercontent.com/Mostafa-Samir/Tic-Tac-Toe-AI/master/scripts/game.js"></script> -->
+        <!-- <script src="https://raw.githubusercontent.com/Mostafa-Samir/Tic-Tac-Toe-AI/master/scripts/ui.js"></script> -->
+        <!-- --!>
+    </head>
+    <body>
+        <div class="row text-center" id="header">
+                Tic Tac Toe Game
+        </div>
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-xs-offset-4 col-xs-1">
+                   <div class="dropdown">
+                       <button id="side" class="btn btn-secondary dropdown-toggle"
+                           data-toggle="dropdown" title="Choose side">
+                           X/O
+                       </button>
+                       <ul class="dropdown-menu" >
+                           <li><a class="player" href="#"> X </a></li>
+                           <li><a class="player" href="#"> O </a></li>
+                       </ul>
+                   </div>               
+               </div>
+               <div class="col-xs-2 text-center">
+                   <span id="player" class="score">0</span><span class="score"> - </span>
+                   <span id="computer" class="score">0</span>
+               </div>
+               <div class=" col-xs-1">
+                   <button id="play" class="btn btn-secondary">Play</button>
+               </div>
+           </div> 
+        </div>
+        <div id="whoplays" class="container-fluid text-center">#whoplays</div>
+
+        
+        <div id="board" class="container-fluid ">
+            <table>
+                <tr class="bottom">
+                    <td class="rbottom"></td><td class="rbottom"></td><td
+                        class="bottom"></td> 
+                </tr>
+                <tr class="bottom">
+                    <td class="rbottom"></td><td class="rbottom"></td><td
+                        class="bottom"></td> 
+                </tr>
+                <tr>
+                    <td class="right"></td><td class="right"></td><td ></td> 
+                </tr>
+            </table>
+
+        </div>      
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <script src="scripts/side.js" ></script>
+        <script src="scripts/ui.js" ></script>
+        <script src="scripts/game.js"></script>
+        <script src="scripts/ai.js"></script>
+        <script src="myscript.js" ></script>
+    </body>
+</html>
+

@@ -1,0 +1,106 @@
+body {
+    background-color: #2D3238;
+    color: #C7CBCF;
+    font-family: Helvetica;
+}
+table {
+    border-collapse: collapse;
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+td {
+    border: none;
+    border-color: #C7CBCF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-style: bold;
+    font-size: 2em;
+}
+#board {
+    margin-top: 30px;
+}
+#whoplays{
+    margin-top: 10px;
+}
+.bottom {
+    border-style: none none ridge none;
+}
+.rbottom {
+    border-style: none ridge ridge none;
+}
+.right {
+    border-style: none ridge none none;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #464D70;
+}
+.form-control {
+    background: none;
+    border: none;
+    color: #eee;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15pt;
+    
+}
+#header{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #C7CBCF;
+    font-size: 30pt;
+
+}
+/*
+    #2B2B2B gray
+    #DE1B1B red
+    #F6F6F6 white-ish
+    #E9E581 yellow-ish
+*/
+    /*
+     *#2D3238 gray
+     *#57AD68 green
+     *#464D70 petrol
+     *#C7CBCF pale magenta
+     *#EEEEEE whiteish
+     * */
+.btn {
+    background-color: #57AD68; 
+    box-shadow: 0 0 2px 2px rgba(0,0,0, 0.5);
+    width: 100%;
+}
+.btn:hover {
+    background: #C7CBCF ! important;
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0, 0.5);
+}
+
+
+.cell {
+    cursor: pointer;
+}
+.score{
+
+    font-style: bold;
+    font-size: 2em;
+}
+.dropdown-menu {
+    border: none !important;
+    box-shadow: 0 !important;
+    border-radius:0;
+    background-color: #2d3238;
+    min-width: 25%;
+}
+.dropdown-menu a{
+    color: #c7cbcf !important;
+}
+
